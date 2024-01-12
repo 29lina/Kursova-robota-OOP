@@ -1,0 +1,46 @@
+.game {
+    display: flex;
+    flex-direction: row;
+}
+
+.game-boardd {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    transform: translate(65%, 50%);
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+    border: 3px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.square:hover {
+    background-color: #f5f5f5;
+}
+
+.boardd {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+
+}
+
+.start {
+    transform: translate(-160%, 950%);
+    position: fixed;
+    font-size: 20px;
+    padding: 10px 5px;
+}
+
+.status {
+    font-size: 35px;
+    transform: translate(-125%, 220%);
+    position: fixed;
+}
+
