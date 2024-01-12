@@ -31,10 +31,10 @@ namespace BLL.Services
         new List<int> { 3, 4, 5 }, // Середня горизонталь
         new List<int> { 6, 7, 8 }, // Нижня горизонталь
         new List<int> { 0, 3, 6 }, // Ліва вертикаль
-        new List<int> { 1, 4, 7 }, // Средня вертикаль
+        new List<int> { 1, 4, 7 }, // Середня вертикаль
         new List<int> { 2, 5, 8 }, // Права вертикаль
         new List<int> { 0, 4, 8 }, // Діагональ зліва направо
-        new List<int> { 2, 4, 6 }  // Діагональ зправа наліво
+        new List<int> { 2, 4, 6 }  // Діагональ справа наліво
         };
         public async Task<int> CheckGame(List<List<string>> board, int id)
         {
